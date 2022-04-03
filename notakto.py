@@ -1,10 +1,6 @@
 from termcolor import colored
 from copy import deepcopy
 from globals import *
-import time
-
-# min(max(node))
-# max(min(node))
 
 def can_place(square,i,j):
     if square[i][j] == 'X':
